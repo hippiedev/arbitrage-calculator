@@ -1,0 +1,14 @@
+.Results {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px;
+}
+.Results td, th {
+    border: 1px solid #e5e5e5;
+    text-align: left;
+    padding: 8px;
+}
+.Results tr:nth-child(even) {
+    background-color: #e5e5e5;
+}

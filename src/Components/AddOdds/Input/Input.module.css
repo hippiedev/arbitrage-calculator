@@ -1,0 +1,15 @@
+.Input {
+    width: 100px;
+    padding: 5px;
+    border-radius: 4px;
+    outline: none;
+    border: 0;
+
+}
+.Label {
+    margin-right: 10px;
+}
+.Prefix {
+    padding: 2px 5px;
+    background: #fff;
+}

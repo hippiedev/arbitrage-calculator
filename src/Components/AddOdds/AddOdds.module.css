@@ -1,0 +1,39 @@
+.AddOdds {
+  padding: 45px;
+  background: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+}
+.InputWrap {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.AddInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 20px 0;
+    font-weight: 500;
+}
+.AddInput img {
+    margin-left: 5px;
+}
+.AddOdds button {
+    padding: 10px;
+    background: rgb(52, 103, 197);
+    color: #fff;
+    border-radius: 4px;
+    border-style: none;
+    outline: 0;
+    cursor: pointer;
+}
