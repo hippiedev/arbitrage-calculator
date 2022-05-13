@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import AddOdds from "./Components/AddOdds/AddOdds";
 import Results from "./Components/Results/Results";
 import "./App.css";
