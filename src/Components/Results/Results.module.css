@@ -12,3 +12,11 @@
 .Results tr:nth-child(even) {
     background-color: #e5e5e5;
 }
+
+.odd {
+    background: rgb(26, 26, 172);
+    color: #fff;
+    margin-right: 3px;
+    border-radius: 5px;
+    padding: 3px;
+}

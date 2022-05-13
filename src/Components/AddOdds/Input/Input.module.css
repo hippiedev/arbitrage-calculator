@@ -4,6 +4,7 @@
     border-radius: 4px;
     outline: none;
     border: 0;
+    height: 30px;
 
 }
 .Label {
@@ -12,4 +13,16 @@
 .Prefix {
     padding: 2px 5px;
     background: #fff;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.InputVariant {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.InputVariant .Input {
+    border-radius: 0;
 }

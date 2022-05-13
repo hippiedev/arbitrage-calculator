@@ -13,7 +13,7 @@ export const Input = props => {
 export const InputVariant = props => {
     return (
       <div className={styles.InputVariant}>
-        Stake:{" "} 
+        <label className={styles.Label}>Stake: </label>
         <label className={styles.Prefix}>
           <img src={nairaIcon} alt="" />
         </label>
