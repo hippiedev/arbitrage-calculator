@@ -10,10 +10,7 @@ const AddOdds = ({calculationHandler}) => {
     },
     1: {
       value: "",
-    },
-    2: {
-      value: "",
-    },
+    }
   });
   const [stake, setStake] = useState("");
   const handleAddNum = () => {

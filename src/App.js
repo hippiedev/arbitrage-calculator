@@ -11,21 +11,21 @@ const App = () => {
     setStakeAmount(stake);
     const entries = Object.values(odds);
     setOdds(entries);
-    const oddResults = []
+    const oddResults = [];
     entries.forEach((odd) => {
       const numerator = stake * ((1 / parseFloat(odd.value)) * 100);
-    const entryMethod = entries.reduce(
-      (total, currEntry) => total + 1 / currEntry.value,
-      0
-    );
-    const denominator = entryMethod * 100;
-    const oddResult = parseFloat(numerator / denominator).toFixed(2);
-    console.log(oddResult)
-    oddResults.push(oddResult)
-    console.log(oddResults)
-    })
+      const entryMethod = entries.reduce(
+        (total, currEntry) => total + 1 / currEntry.value,
+        0
+      );
+      const denominator = entryMethod * 100;
+      const oddResult = parseInt(numerator / denominator);
+      console.log(oddResult);
+      oddResults.push(oddResult);
+      console.log(oddResults);
+    });
     setResult(oddResults);
-  }
+  };
   return (
     <div className="App">
       <AddOdds
